@@ -6,7 +6,7 @@ public class Fabricante {
 	private String nombre;
 	private Pais pais;
 	ArrayList<Fabricante> fabricantes=Vehiculo.fabricantes;
-	Fabricante(String nombre,Pais pais){
+	public Fabricante(String nombre,Pais pais){
 		this.setNombre(nombre);
 		this.setPais(pais);
 	}

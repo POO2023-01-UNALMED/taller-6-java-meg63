@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Pais {
 	 private String nombre;
 	 ArrayList<Pais> paises=Vehiculo.paises;
-	 Pais(String nombre){
+	public Pais(String nombre) {
 		 this.nombre=nombre;
 	 }
 	 public Pais paisMasVendedor() {

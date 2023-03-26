@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pais {
 	 private String nombre;
-	 ArrayList<Pais> paises=Vehiculo.paises;
+	 static ArrayList<Pais> paises=Vehiculo.paises;
 	public Pais(String nombre) {
 		 this.nombre=nombre;
 	 }

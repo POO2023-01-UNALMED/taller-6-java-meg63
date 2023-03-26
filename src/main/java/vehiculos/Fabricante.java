@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class Fabricante {
 	private String nombre;
 	private Pais pais;
-	ArrayList<Fabricante> fabricantes=Vehiculo.fabricantes;
+	static ArrayList<Fabricante> fabricantes=Vehiculo.fabricantes;
 	public Fabricante(String nombre,Pais pais){
 		this.setNombre(nombre);
 		this.setPais(pais);
 	}
-	 public Fabricante fabricaMayorVentas() {
+	 public static Fabricante fabricaMayorVentas() {
 			
 			Fabricante f = null;
 			int c = 0;

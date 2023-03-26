@@ -9,9 +9,7 @@ public class Automovil extends Vehiculo {
 		
 		
 	}
-	//puertas→4
-	//velocidadMaxima→100
-	//traccion→"FWD"
+	
 
 	public int getPuestos() {
 		return puestos;

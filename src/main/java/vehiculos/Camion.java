@@ -7,10 +7,7 @@ public class Camion extends Vehiculo {
 		this.ejes=ejes;
 		super.cm++;
 	}
-	//puertas 2
-	//velocidadMaxima 80
-	//traccion "4X2"
-
+	
 	public int getEjes() {
 		return ejes;
 	}

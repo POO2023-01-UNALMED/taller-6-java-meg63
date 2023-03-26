@@ -7,8 +7,7 @@ public class Camioneta extends Vehiculo {
 		this.volco=volco;
 		super.ct++;
 	}
-	//velocidadMaxima→90
-	//traccion→"4X4""
+	
 
 	public boolean isVolco() {
 		return volco;

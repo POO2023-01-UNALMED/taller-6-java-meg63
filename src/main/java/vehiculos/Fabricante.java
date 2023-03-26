@@ -21,13 +21,17 @@ public class Fabricante {
 					if (fabricantes.get(x)==fabricante) {
 						ca++;
 						
+						
 					}
 				if(ca>c) {
 					f=fabricante;
+					c=ca;
 				}
 					
-				}	 
-			 } return f;
+				}	
+			
+			 } 
+			return f;
 			
 		}
 

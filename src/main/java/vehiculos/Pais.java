@@ -22,6 +22,7 @@ public class Pais {
 					}
 				if(ca>c) {
 					p=pais;
+					c=ca;
 				}
 					
 				}	 

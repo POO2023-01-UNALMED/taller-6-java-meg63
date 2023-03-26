@@ -8,7 +8,7 @@ public class Pais {
 	public Pais(String nombre) {
 		 this.nombre=nombre;
 	 }
-	public static paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		
 			Pais p = null;
 			int c = 0;
